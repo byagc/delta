@@ -18,8 +18,8 @@ A página está hospedada no [Site](https://romulus.com.br/dashdeltacapital/logi
 
 ```mermaid
 sequenceDiagram
-Arlon->> Rômulo: Hello Bob, how are you?
-Romulo-->>John: How about you John?
+Arlon->> Romulo: Hello Bob, how are you?
+Romulo-->> Bruno: How about you John?
 Bruno --x Romulo: I am good thanks!
 Note right of Arlon: Controllers e Models.
 ```
