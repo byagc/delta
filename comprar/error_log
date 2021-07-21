@@ -1,0 +1,9 @@
+[20-Jul-2021 10:43:44 America/Fortaleza] {"message":"items must be a array","error":"invalid_items","status":400,"cause":null}
+[20-Jul-2021 10:43:44 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home2/romulu12/public_html/dashdeltacapital/login/comprar/vendor/mercadopago/dx-php/src/MercadoPago/Generic/RecuperableError.php on line 30
+[20-Jul-2021 10:44:12 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Error required in attribute items in /home2/romulu12/public_html/dashdeltacapital/login/comprar/vendor/mercadopago/dx-php/src/MercadoPago/Manager.php:109
+Stack trace:
+#0 /home2/romulu12/public_html/dashdeltacapital/login/comprar/vendor/mercadopago/dx-php/src/MercadoPago/Manager.php(79): MercadoPago\Manager->validateAttribute(Object(MercadoPago\Preference), 'items', Array)
+#1 /home2/romulu12/public_html/dashdeltacapital/login/comprar/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(256): MercadoPago\Manager->execute(Object(MercadoPago\Preference), 'post', Array)
+#2 /home2/romulu12/public_html/dashdeltacapital/login/comprar/index.php(62): MercadoPago\Entity->save()
+#3 {main}
+  thrown in /home2/romulu12/public_html/dashdeltacapital/login/comprar/vendor/mercadopago/dx-php/src/MercadoPago/Manager.php on line 109
