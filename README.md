@@ -6,7 +6,7 @@ Aqui poderemos ter um total controle das versões do código.
 
 Arlon
 Romulo
-..
+Bruno
 
 
 
